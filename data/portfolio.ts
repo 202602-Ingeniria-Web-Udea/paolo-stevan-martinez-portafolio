@@ -87,3 +87,41 @@ export const education = [
       "Formación académica integral con énfasis en el desarrollo de habilidades analíticas, comunicación y trabajo en equipo.",
   },
 ];
+export const projects = [
+  {
+    id: 1,
+    title: "Mi primer proyecto web",
+    shortDescription:
+      "Aplicación web desarrollada como parte de mi proceso de aprendizaje.",
+    description:
+      "Proyecto desarrollado para poner en práctica conceptos de desarrollo web, diseño de interfaces y programación.",
+    image: "/images/project-1.jpeg",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    github: "https://github.com/",
+    demo: "https://github.com/",
+  },
+  {
+    id: 2,
+    title: "Aplicación React",
+    shortDescription:
+      "Aplicación construida utilizando React y componentes reutilizables.",
+    description:
+      "Proyecto enfocado en el desarrollo de interfaces utilizando React, manejo de estados y componentes reutilizables.",
+    image: "/images/project-2.jpeg",
+    technologies: ["React", "JavaScript", "CSS"],
+    github: "https://github.com/",
+    demo: "https://github.com/",
+  },
+  {
+    id: 3,
+    title: "Proyecto Next.js",
+    shortDescription:
+      "Aplicación web moderna desarrollada utilizando Next.js y TypeScript.",
+    description:
+      "Proyecto desarrollado utilizando Next.js, TypeScript y Tailwind CSS, aplicando buenas prácticas de organización y reutilización de componentes.",
+    image: "/images/project-3.jpeg",
+    technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
+    github: "https://github.com/",
+    demo: "https://github.com/",
+  },
+];

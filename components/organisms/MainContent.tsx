@@ -1,6 +1,7 @@
 import ProfileSection from "./ProfileSection";
 import KnowledgeSection from "./KnowledgeSection";
 import EducationSection from "./EducationSection";
+import PortfolioSection from "./PortfolioSection";
 
 export default function MainContent() {
   return (
@@ -10,7 +11,8 @@ export default function MainContent() {
       <KnowledgeSection />
 
       <EducationSection />
+
+      <PortfolioSection />
     </main>
   );
 }
-
