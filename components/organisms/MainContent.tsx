@@ -2,6 +2,7 @@ import ProfileSection from "./ProfileSection";
 import KnowledgeSection from "./KnowledgeSection";
 import EducationSection from "./EducationSection";
 import PortfolioSection from "./PortfolioSection";
+import Footer from "./Footer";
 
 export default function MainContent() {
   return (
@@ -13,6 +14,8 @@ export default function MainContent() {
       <EducationSection />
 
       <PortfolioSection />
+
+      <Footer />
     </main>
   );
 }

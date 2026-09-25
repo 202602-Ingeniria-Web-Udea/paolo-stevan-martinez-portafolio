@@ -1,20 +1,31 @@
 import SkillItem from "../molecules/SkillItem";
+
+
 import {
   languages,
   programmingLanguages,
 } from "../../data/portfolio";
+import Image from "next/image";
 
 export default function LeftSidebar() {
   return (
-    <aside className="flex flex-col gap-8 p-6">
+    <aside className="fixed left-0 top-0 z-40 hidden h-screen w-72 flex-col gap-8 overflow-y-auto border-r border-slate-800 bg-slate-950 p-6 lg:flex">
+
       {/* Información personal */}
       <section>
-        <div className="mx-auto mb-4 flex h-28 w-28 items-center justify-center rounded-full bg-slate-700 text-4xl">
-          👤
+        <div className="mx-auto mb-4 h-28 w-28 overflow-hidden rounded-full border-4 border-cyan-400/30">
+          <Image
+            src="/images/profile.jpg"
+            alt="Foto de perfil"
+            width={112}
+            height={112}
+            className="h-full w-full object-cover"
+          />
         </div>
 
+
         <h1 className="text-center text-xl font-bold text-white">
-          Tu Nombre
+          Paolo Stevan Martinez Cardona
         </h1>
 
         <p className="mt-1 text-center text-sm text-cyan-400">
@@ -29,8 +40,8 @@ export default function LeftSidebar() {
         </h2>
 
         <div className="space-y-2 text-sm text-slate-400">
-          <p>Bogotá, Colombia</p>
-          <p>tu-correo@email.com</p>
+          <p>San Jose de Cucuta, Norte de Santander, Colombia</p>
+          <p>paolo.martinez@udea.edu.co</p>
         </div>
       </section>
 
