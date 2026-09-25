@@ -124,4 +124,14 @@ export const projects = [
     github: "https://github.com/",
     demo: "https://github.com/",
   },
+
+ 
+
+];
+export const extraSkills = [
+  "Trabajo en equipo",
+  "Comunicación",
+  "Resolución de problemas",
+  "Aprendizaje continuo",
+  "Pensamiento lógico",
 ];

@@ -6,6 +6,8 @@ import {
   programmingLanguages,
 } from "../../data/portfolio";
 import Image from "next/image";
+import { Mail, MapPin, Phone } from "lucide-react";
+
 
 export default function LeftSidebar() {
   return (
@@ -29,7 +31,7 @@ export default function LeftSidebar() {
         </h1>
 
         <p className="mt-1 text-center text-sm text-cyan-400">
-          Estudiante de Ingeniería
+          Estudiante de Ingeniería de Sistemas
         </p>
       </section>
 
@@ -41,9 +43,28 @@ export default function LeftSidebar() {
 
         <div className="space-y-2 text-sm text-slate-400">
           <p>San Jose de Cucuta, Norte de Santander, Colombia</p>
-          <p>paolo.martinez@udea.edu.co</p>
+          <p>Avenida libertadores edificio Guvilla</p>
         </div>
       </section>
+
+      <div className="space-y-4">
+        <div className="flex items-center gap-3 text-sm text-slate-400">
+          <MapPin className="h-4 w-4 text-cyan-400" />
+          <span>Cucuta, Colombia</span>
+        </div>
+
+        <div className="flex items-center gap-3 text-sm text-slate-400">
+          <Mail className="h-4 w-4 text-cyan-400" />
+          <span>paolo.martinez@udea.edu.co</span>
+        </div>
+
+        <div className="flex items-center gap-3 text-sm text-slate-400">
+          <Phone className="h-4 w-4 text-cyan-400" />
+          <span>+57 319 385 2364</span>
+        </div>
+      </div>
+
+
 
       {/* Idiomas */}
       <section>
