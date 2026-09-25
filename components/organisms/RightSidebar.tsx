@@ -7,7 +7,7 @@ export default function RightSidebar() {
 
         {/* GitHub */}
         <a
-          href="https://github.com/"
+          href="https://github.com/paolomartine"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="GitHub"
@@ -29,7 +29,7 @@ export default function RightSidebar() {
 
         {/* LinkedIn */}
         <a
-          href="https://www.linkedin.com/"
+          href="https://www.linkedin.com/www.linkedin.com/in/paolo-stevan-martinez-cardona-24388a2a5"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn"
